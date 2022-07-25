@@ -1,5 +1,6 @@
 {
   "name": "portfolio_nextjs",
+  "homepage": "http://akhilbhadrangirija.github.io/Profile",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,5 +15,8 @@
     "react-icons": "^4.2.0",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
