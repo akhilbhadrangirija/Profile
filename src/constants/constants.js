@@ -14,7 +14,8 @@ export const projects = [
   {
     title: 'Shoof E-Commerce',
     description: 'A full stack MERN application for an ecommerce company',
-    image: '/images/shoof.png',
+    // image: '/images/shoof.png',
+    image: {`&{process.env.IMAGES}/images/shoof.png`},
     tags: ['React', 'MongoDB', 'Express', 'Node'],
     source: 'https://github.com/akhilbhadrangirija/shoof-ecommerce',
     visit: 'https://github.com/akhilbhadrangirija/shoof-ecommerce',
