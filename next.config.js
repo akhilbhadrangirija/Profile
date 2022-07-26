@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true
+  reactStrictMode: true,
+  images: {
+    loader: 'akamai',
+    path: ''
+  },
+  basepath: '/nextjs-pages',
+  assetPrefix: 'nextjs-pages'
 }
 
 module.exports = nextConfig
