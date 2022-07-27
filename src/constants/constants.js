@@ -14,7 +14,7 @@ export const projects = [
   {
     title: 'Shoof E-Commerce',
     description: 'A full stack MERN application for an ecommerce company',
-    image: '/images/shoof.png',
+    image: '/images/shoofc.png',
     // image: `&{process.env.IMAGES}/images/shoof.png`,
     tags: ['React', 'MongoDB', 'Express', 'Node'],
     source: 'https://github.com/akhilbhadrangirija/shoof-ecommerce',
@@ -36,7 +36,7 @@ export const projects = [
     description:
       'Modern static Website of a foodjoint with multiple pages with an online menu.',
     image: '/images/truckman.jpg',
-    tags: ['HTML', 'CSS'],
+    tags: ['HTML', 'CSS', 'JS'],
     source: 'https://akhilbhadrangirija.github.io/Digitalmenu-Truck/',
     visit: 'https://akhilbhadrangirija.github.io/Digitalmenu-Truck/',
     id: 3
