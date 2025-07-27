@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { getAllBlogs } from '../utils/markdown'
 import styled from 'styled-components'
 import Header from '../components/Header/Header'
+import { Container } from '../layout/LayoutStyles'
 
 const BlogsContainer = styled.div`
   max-width: 800px;
@@ -98,7 +99,7 @@ const NoBlogsMessage = styled.div`
 
 export default function Blogs({ blogs }) {
   return (
-    <>
+    <Container>
       <Head>
         <title>Blogs - Akhil Bhadrangirija</title>
         <meta
@@ -152,7 +153,7 @@ export default function Blogs({ blogs }) {
           </BlogGrid>
         )}
       </BlogsContainer>
-    </>
+    </Container>
   )
 }
 

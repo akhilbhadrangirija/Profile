@@ -1,6 +1,6 @@
 ---
 title: 'I Helped Build FAH Because Hiring Was Broken'
-date: '2024-01-20'
+date: '2025-07-27'
 author: 'Akhil Bhadrangirija'
 excerpt: 'How we built FoundersAreHiring to solve the broken hiring process for startups and developers.'
 tags: ['Startup', 'Hiring', 'Product Development', 'FoundersAreHiring', 'FAH']
@@ -8,56 +8,111 @@ tags: ['Startup', 'Hiring', 'Product Development', 'FoundersAreHiring', 'FAH']
 
 # I Helped Build FAH Because Hiring Was Broken
 
-When I joined Nik early on, _FoundersAreHiring_ (or [FAH](https://foundersarehiring.com/)) wasn’t a product yet—it was just an idea, something he’d been sketching out while we were scrambling to build and scale. Back then, it was just a few of us: writing code, shipping fast, and wearing every hat possible. My job was product, backend, and systems. **Hiring? Not really my lane.**
+_By Akhil Bhadrangirija – July 27, 2025_
 
-Until suddenly, it was.
+Startup hiring wasn’t supposed to be this painful.
 
-We started growing. That meant hiring. I began reviewing resumes, hopping on screening calls, and trying to find people who could actually help us move faster—not just look good on paper. And over and over, I kept seeing the same things:
+I joined Nik early. _FoundersAreHiring_ wasn’t a product yet—it was a rough sketch he’d drawn between shipping sprints and founder chaos. We were a tiny team, doing what early-stage startups do best: building, shipping, and stretching ourselves thin. My focus? Systems, backend, product.
 
-- **Polished LinkedIn profiles with zero real signal**
+**Hiring? Not really in my job description.**
 
-- **“Great” candidates who weren’t a fit at all**
-
-- **Hours wasted on interviews that should never have happened**
-
-That pain made something click. **Nik was right: the hiring stack was broken**—bloated, noisy, and full of friction. The traditional job boards didn’t help. Recruiters added layers instead of removing them. We were spending too much time filtering noise, and not enough building our team.
-
-## So We Built [FoundersAreHiring](https://foundersarehiring.com/)
-
-Nik had already started experimenting with what would become [FoundersAreHiring](https://foundersarehiring.com/). When he asked if I wanted to help build it, I didn’t need convincing. It was the exact tool we needed but couldn’t find anywhere else.
-
-We didn’t set out to build _just another job board_. We wanted to rethink the experience for both **founders** and **builders**—because we had been (and still are) both.
-
-### Here’s What We Focused On:
-
-#### 1. **Direct Connections**
-
-We removed the noise. At [FoundersAreHiring](https://foundersarehiring.com/), candidates and founders talk directly—no recruiters, no middle layers. That means faster decisions and real conversations.
-
-#### 2. **Real Signal**
-
-Instead of daily job spam, we send **curated drops weekly**. That’s fewer emails, but higher quality. Each drop is tailored to highlight high-signal candidates and compelling startup roles.
-
-#### 3. **Fit Over Fluff**
-
-You won’t find meaningless job titles or buzzword-heavy company blurbs here. [FoundersAreHiring](https://foundersarehiring.com/) highlights how startups **actually work**—the tech stack, the pace, the culture, and how decisions get made. These things matter way more than whether someone’s last job had “senior” in the title.
-
-#### 4. **Smart Filtering**
-
-Tired of copy-paste resumes and low-effort applications? So were we. That’s why we built in filtering tools to automatically block low-signal submissions—so your inbox only gets the good stuff.
+But when we started growing, it suddenly became all-consuming.
 
 ---
 
-I’ve been on both sides of the table:
+## The Pain That Sparked a Platform
 
-- As a developer looking for **a real team**, not just a job
+I found myself knee-deep in resumes and “top talent” intros. I was talking to developers who sounded great on paper… but didn’t actually want to build. Or couldn’t. Or didn’t care.
 
-- And as a founder trying to hire people who **actually care**
+The same issues kept showing up:
 
-[FoundersAreHiring](https://foundersarehiring.com/) is the platform we wish had existed when we started building. So we made it. And we’re still making it better.
+- **Impressive LinkedIn profiles, zero real signal**
 
-If you’re a **founder looking to hire**, or a **builder looking for a high-agency role**, give [FoundersAreHiring](https://foundersarehiring.com/) a try.
-We’re live, and we’re improving every week.
+- **Candidates who looked great—but didn’t align**
 
-**→ [Try FoundersAreHiring](https://foundersarehiring.com/)**
-Tell us what’s missing. Let’s fix hiring—for real this time.
+- **Wasted hours on interviews that never should’ve happened**
+
+And that’s when it hit me: **Nik was right. Startup hiring is broken.**
+Bloated job boards. Recruiters adding friction. Signals lost in noise. The tools weren’t built for speed or clarity—they were built for scale. And scale is the enemy when you're hiring for fit.
+
+We weren’t looking for “the best resume.”
+We were looking for **builders who care**. People who’d jump into the fire with us. And those people were getting buried.
+
+---
+
+## So We Built the Tool We Wish We Had
+
+Nik had already started experimenting with what would become [FoundersAreHiring](https://foundersarehiring.com/). When he asked if I wanted in, it was an easy yes.
+
+We didn’t want to build just another [startup job board](https://foundersarehiring.com/startup-job-board). We wanted to _fix the hiring experience_—for founders and for startup-ready candidates alike.
+
+Because we’re both.
+
+---
+
+## What Makes FoundersAreHiring Different
+
+### 🔗 **Founder–Candidate Connection, Not Gatekeeping**
+
+Recruiters weren’t speeding us up—they were slowing us down. So we stripped them out.
+On FAH, founders and candidates connect _directly_. No middlemen. No games.
+
+It’s hiring the way it should be:
+**Real conversations, faster decisions.**
+
+---
+
+### ✉️ **Curated Job Drops, Not Spam**
+
+Instead of flooding inboxes with junk, we send **curated job drops weekly**.
+Each one is crafted to connect high-signal candidates with startups that _actually match_.
+
+Less noise. More fit. Better outcomes.
+
+---
+
+### 🎯 **Fit Over Fluff**
+
+Most platforms treat culture fit like a buzzword. We treat it like the foundation.
+We go beyond titles and talk about what really matters:
+
+- The **tech stack**
+
+- The **pace**
+
+- How **decisions get made**
+
+- What kind of team you're walking into
+
+Because finding the right role isn’t about “Senior” vs “Staff.”
+It’s about _alignment_, energy, and mission.
+
+---
+
+### 🧠 **Built-In Filters for Real Signal**
+
+Copy-paste resumes? Low-effort apps? We’ve been there.
+
+FAH filters out the noise _before_ it hits your inbox.
+Smart filtering tools surface candidates who _actually care_, so you spend less time sorting—and more time hiring.
+
+---
+
+## Built by Founders. For Founders (and Builders).
+
+I’ve sat on both sides of the table.
+
+- As a developer looking for a **mission-driven startup**
+
+- And as a founder trying to hire people who **give a damn**
+
+[FoundersAreHiring](https://foundersarehiring.com/) is the tool we wish existed when we were scaling. So we built it—for us, and for you.
+
+If you’re a **founder trying to hire builders**, or a **builder hunting for a high-agency, high-trust team**, you should try FAH.
+
+We’re live. We’re improving every week. And we’d love your feedback.
+
+👉 [Explore the startup job board](https://foundersarehiring.com/startup-job-board)
+👉 [Try FoundersAreHiring](https://foundersarehiring.com/)
+
+Let’s fix startup hiring—for real this time.

@@ -4,6 +4,7 @@ import { getAllBlogIds, getBlogData, getAllBlogs } from '../../utils/markdown'
 import styled from 'styled-components'
 import { useState, useEffect } from 'react'
 import Header from '../../components/Header/Header'
+import { Container } from '../../layout/LayoutStyles'
 
 const BlogContainer = styled.div`
   max-width: 900px;
@@ -443,85 +444,86 @@ export default function BlogPost({ blogData, relatedPosts }) {
             />
           ))}
       </Head>
+      <Container>
+        <Header />
 
-      <Header />
+        <BlogContainer>
+          <BackLink>
+            <Link href="/blogs">← Back to all blogs</Link>
+          </BackLink>
 
-      <BlogContainer>
-        <BackLink>
-          <Link href="/blogs">← Back to all blogs</Link>
-        </BackLink>
+          <BlogHeader>
+            <BlogTitle>{blogData.title}</BlogTitle>
 
-        <BlogHeader>
-          <BlogTitle>{blogData.title}</BlogTitle>
+            <BlogMeta>
+              <span>{blogData.date}</span>
+              <span>•</span>
+              <span>By {blogData.author}</span>
+              <span>•</span>
+              <ReadingTime>{readingTime} min read</ReadingTime>
+            </BlogMeta>
 
-          <BlogMeta>
-            <span>{blogData.date}</span>
-            <span>•</span>
-            <span>By {blogData.author}</span>
-            <span>•</span>
-            <ReadingTime>{readingTime} min read</ReadingTime>
-          </BlogMeta>
+            {blogData.tags && (
+              <BlogTags>
+                {blogData.tags.map(tag => (
+                  <Tag key={tag}>{tag}</Tag>
+                ))}
+              </BlogTags>
+            )}
+          </BlogHeader>
 
-          {blogData.tags && (
-            <BlogTags>
-              {blogData.tags.map(tag => (
-                <Tag key={tag}>{tag}</Tag>
-              ))}
-            </BlogTags>
+          {toc && (
+            <TableOfContents>
+              <h3>Table of Contents</h3>
+              <ul>
+                {toc.map((item, index) => (
+                  <li
+                    key={index}
+                    style={{ marginLeft: `${(item.level - 2) * 1}rem` }}>
+                    <a href={`#${item.id}`}>{item.text}</a>
+                  </li>
+                ))}
+              </ul>
+            </TableOfContents>
           )}
-        </BlogHeader>
 
-        {toc && (
-          <TableOfContents>
-            <h3>Table of Contents</h3>
-            <ul>
-              {toc.map((item, index) => (
-                <li
-                  key={index}
-                  style={{ marginLeft: `${(item.level - 2) * 1}rem` }}>
-                  <a href={`#${item.id}`}>{item.text}</a>
-                </li>
+          <BlogContent
+            dangerouslySetInnerHTML={{ __html: blogData.contentHtml }}
+          />
+
+          <SocialShare>
+            <ShareButton onClick={() => handleShare('twitter')}>
+              Share on Twitter
+            </ShareButton>
+            <ShareButton
+              className="linkedin"
+              onClick={() => handleShare('linkedin')}>
+              Share on LinkedIn
+            </ShareButton>
+            <ShareButton onClick={() => handleShare('copy')}>
+              Copy Link
+            </ShareButton>
+          </SocialShare>
+
+          {relatedPosts && relatedPosts.length > 0 && (
+            <RelatedPosts>
+              <h3>Related Posts</h3>
+              {relatedPosts.map(post => (
+                <RelatedPostCard key={post.id}>
+                  <h4>
+                    <Link href={`/blogs/${post.id}`}>{post.title}</Link>
+                  </h4>
+                  <p>{post.excerpt}</p>
+                </RelatedPostCard>
               ))}
-            </ul>
-          </TableOfContents>
-        )}
+            </RelatedPosts>
+          )}
 
-        <BlogContent
-          dangerouslySetInnerHTML={{ __html: blogData.contentHtml }}
-        />
-
-        <SocialShare>
-          <ShareButton onClick={() => handleShare('twitter')}>
-            Share on Twitter
-          </ShareButton>
-          <ShareButton
-            className="linkedin"
-            onClick={() => handleShare('linkedin')}>
-            Share on LinkedIn
-          </ShareButton>
-          <ShareButton onClick={() => handleShare('copy')}>
-            Copy Link
-          </ShareButton>
-        </SocialShare>
-
-        {relatedPosts && relatedPosts.length > 0 && (
-          <RelatedPosts>
-            <h3>Related Posts</h3>
-            {relatedPosts.map(post => (
-              <RelatedPostCard key={post.id}>
-                <h4>
-                  <Link href={`/blogs/${post.id}`}>{post.title}</Link>
-                </h4>
-                <p>{post.excerpt}</p>
-              </RelatedPostCard>
-            ))}
-          </RelatedPosts>
-        )}
-
-        <BlogFooter>
-          <p>Thanks for reading! Share this post if you found it helpful.</p>
-        </BlogFooter>
-      </BlogContainer>
+          <BlogFooter>
+            <p>Thanks for reading! Share this post if you found it helpful.</p>
+          </BlogFooter>
+        </BlogContainer>
+      </Container>
     </>
   )
 }
