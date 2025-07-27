@@ -101,7 +101,7 @@ export default function Blogs({ blogs }) {
   return (
     <Container>
       <Head>
-        <title>Blogs - Akhil Bhadrangirija</title>
+        <title>Blogs - Akhil Bhadran</title>
         <meta
           name="description"
           content="Read my latest blog posts about web development, Next.js, and technology."

@@ -384,7 +384,7 @@ export default function BlogPost({ blogData, relatedPosts }) {
   }, [blogData.contentHtml])
 
   const shareUrl = typeof window !== 'undefined' ? window.location.href : ''
-  const shareText = `${blogData.title} by Akhil Bhadrangirija`
+  const shareText = `${blogData.title} by Akhil Bhadran`
 
   const handleShare = platform => {
     let url = ''
@@ -410,7 +410,7 @@ export default function BlogPost({ blogData, relatedPosts }) {
   return (
     <>
       <Head>
-        <title>{blogData.title} - Akhil Bhadrangirija</title>
+        <title>{blogData.title} - Akhil Bhadran</title>
         <meta
           name="description"
           content={blogData.excerpt}

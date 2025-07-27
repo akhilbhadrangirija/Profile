@@ -1,14 +1,14 @@
 ---
 title: 'I Helped Build FAH Because Hiring Was Broken'
 date: '2025-07-27'
-author: 'Akhil Bhadrangirija'
+author: 'Akhil Bhadran'
 excerpt: 'How we built FoundersAreHiring to solve the broken hiring process for startups and developers.'
 tags: ['Startup', 'Hiring', 'Product Development', 'FoundersAreHiring', 'FAH']
 ---
 
 # I Helped Build FAH Because Hiring Was Broken
 
-_By Akhil Bhadrangirija – July 27, 2025_
+_By Akhil Bhadran – July 27, 2025_
 
 Startup hiring wasn’t supposed to be this painful.
 

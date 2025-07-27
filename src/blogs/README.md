@@ -49,7 +49,7 @@ You can use standard markdown syntax in your blog posts:
 ---
 title: 'My First Blog Post'
 date: '2024-01-25'
-author: 'Akhil Bhadrangirija'
+author: 'Akhil Bhadran'
 excerpt: 'This is my first blog post about web development and technology.'
 tags: ['Web Development', 'JavaScript', 'React']
 ---

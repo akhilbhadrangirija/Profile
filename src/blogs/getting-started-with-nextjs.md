@@ -1,7 +1,7 @@
 ---
 title: 'Getting Started with Next.js'
 date: '2024-01-15'
-author: 'Akhil Bhadrangirija'
+author: 'Akhil Bhadran'
 excerpt: 'Learn the basics of Next.js and how to build your first application with this powerful React framework.'
 tags: ['Next.js', 'React', 'Web Development']
 ---

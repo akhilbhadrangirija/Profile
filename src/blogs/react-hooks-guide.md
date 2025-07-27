@@ -1,7 +1,7 @@
 ---
 title: 'Understanding React Hooks: A Comprehensive Guide'
 date: '2024-01-20'
-author: 'Akhil Bhadrangirija'
+author: 'Akhil Bhadran'
 excerpt: 'Master React Hooks with this comprehensive guide covering useState, useEffect, useContext, and custom hooks.'
 tags: ['React', 'JavaScript', 'Frontend', 'Hooks']
 ---
